@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=DM+Serif+Display|Poppins|Roboto|Roboto+Condensed|Ubuntu&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Anton|Russo+One&display=swap');
-body{
+* body{
     margin: 0;
     padding: 0;
     background-color: #f7f7fa;
+    font-family: 'Roboto';
 }
 * section{
     max-width: 100vw;
@@ -17,22 +18,39 @@ body{
     list-style: none;
 }
 header{
-    margin-bottom: 3rem;
+    height: 6rem;
+    background-color: #f7f7fa;
+    position: sticky;
+}
+.top-email{
+    font-family: 'Poppins';
+    font-size: .9em;
+    font-weight: 400;
+    letter-spacing: 1px;
+    position: absolute;
+    float: right;
+    top: 2rem;
+    right: 13.5rem;
+    z-index: 90;
+    border: 1px solid #001E2B;
+    border-right: none;
+    padding: .6rem 2rem;
 }
 .navigation{
     height: 100vh;
-    width: 100%;
-    position: relative;
-    background: blueviolet;
+    width: 100vw;
+    position: fixed;
+    background: #0d1b1e;
     top: 0;
     display: flex;
     font-family: 'Anton';
-    font-size: 4em;
+    font-size: 1.2em;
     font-weight: 900;
     justify-content: center;
     align-self: center;
-    transition: 5s;
     z-index: 99;
+    padding: 0;
+    margin: 0;
 }
 .menu{
     font-family: 'Roboto Condensed';
@@ -49,7 +67,9 @@ header{
 }
 
 .menu:hover{
-    box-shadow: 2px 2px #001E2B;
+    background: #001E2B;
+    color: #ffffff;
+    transition: .8s;
 
 }
 .close{
@@ -88,10 +108,13 @@ header > ul > li{
    
 }
 
-.hero-heading{
-    align-self: center;
-    max-width: 70%;
+.page-heading h3{
+    font-family: 'Anto', serif;
+    font-size: 2.3em;
+    color: #ffffff;
+    padding-left: 3rem;
 }
+.hero-heading{ align-self: center; }
 
 .hero-heading > h1{
     font-family: 'Anto', serif;
@@ -194,6 +217,27 @@ header > ul > li{
     width: 6em;
     padding: 2rem;
 }
+
+/* Career Section css */
+
+#career h4{
+    font-size: 2.7em;
+    font-family: 'Ubuntu';
+    text-align: left;
+    letter-spacing: 1px;
+}
+#career ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-row-gap: 25px;
+
+}
+#career li {
+    list-style: square;
+    font-size: 1.4em;
+    font-family: 'Russo';
+    padding-right: 4rem;
+}
 #footer-cta{
     padding: 3rem 0;
     background-color: #001E2B;
@@ -277,6 +321,54 @@ header > ul > li{
     color: #f7f7fa;
 }
 
+/* Contact Page Css */
+
+.contact-form{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 50%;
+    align-self: center;
+}
+.contact-form h4{
+    font-size: 2em;
+    margin-bottom: 2rem;
+}
+
+.contact-form input{
+    border: none;
+    border-bottom: 1.5px solid #0d1b1e;
+    padding: 10px;
+    background: transparent;
+    font-family: "Roboto";
+    font-size: 1.2em;
+    font-variant: small-caps;
+    width: 80%;
+    margin-top: .5rem;
+}
+.contact-form button[type=submit]{
+    border: none;
+    border: 1px solid #0d1b1e;
+    padding: 5px;
+    background: transparent;
+    background-color: #f7f7fa;
+    font-family: 'Poppins';
+    font-size: 1.3em;
+    font-weight: 500;
+    letter-spacing: 1px;
+    width: 83.5%;
+    margin-top: 3rem;
+}
+
+.contact-form button[type=submit]:hover{
+    background: #001E2B;
+    color: #ffffff;
+    transition: .8s;
+
+}
+.mapouter{
+    width: 50%;
+}
 @media all and (max-width:640px){
     
     .row{
@@ -345,9 +437,23 @@ header > ul > li{
         font-size: 2em;
     }
 
-    #footer-cta > form{
+    #career ul{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-row-gap: 15px;
+    
+    }
+
+    #career li {
+        list-style: square;
+        font-size: 1.2em;
+        font-family: 'Russo';
+        padding-right: 4rem;
+    }
+    #footer-cta form{
         padding-left: 3rem;
         float: right;
+        align-self: center;
     }
     #footer-cta button{
         width: 220px;

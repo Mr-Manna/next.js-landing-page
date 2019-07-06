@@ -6,8 +6,8 @@ class MyDocument extends Document{
         return(
             <html>
                 <Head>
-                    <title>{title}</title>
                     <meta name="description" content="My NEXT App"/>
+                    <link rel="stylesheet" href="/static/main.css"></link>
                 </Head>
                 <Main/>
                 <NextScript/>

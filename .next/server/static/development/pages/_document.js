@@ -2132,15 +2132,17 @@ function (_Document) {
           lineNumber: 8
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("title", {
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("meta", {
+        name: "description",
+        content: "My NEXT App",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 9
         },
         __self: this
-      }, title), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("meta", {
-        name: "description",
-        content: "My NEXT App",
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("link", {
+        rel: "stylesheet",
+        href: "/static/main.css",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 10

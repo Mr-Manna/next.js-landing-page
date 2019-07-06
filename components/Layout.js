@@ -3,30 +3,25 @@ import Link from 'next/link';
   const Layout = (props) => (
       <main>
       <header>
-        <nav className="navigation display"> 
+        <a href="/"><img className="logo" src="/static/logo.svg" alt="graphics-innovation"></img></a>
         <ul>
-          <li><Link href="index"><a>Home</a></Link></li>
-          <li><Link href="/about"><a>About</a></Link></li>
-          <li><Link href="/blog"><a>Blogs</a></Link></li>
-          <li><Link href="/test"><a>Contact</a></Link></li>
+        <li><span className="top-email">info@graphicsinnovation.in</span></li>
+        <li><Link><a href="./" className="menu menu-home display">HOME</a></Link></li>
+        <li><Link><a href="./contact" className="menu menu-contact-us">CONTACT US</a></Link></li>
         </ul>
-        </nav>
-        <span className="menu">MENU</span>
-        <span className="close display">CLOSE</span>
       </header>
       {props.children}
       <footer>
       <section id="contact">
       <div className="row">
       <div className="contact">
-          <h4>LINKS</h4>
+          <h4>Contacts</h4>
           <ul>
-            <li>Home</li>
-            <li>Photoshop</li>
-            <li>Illustrator</li>
-            <li>Corel Draw</li>
-            <li>Indesign</li>
-            <li>Contact</li>
+          <span><img className="contact-icon" src="/static/phone-call.svg" alt="graphic-innovation-phone-number"></img>+91 98193 12512</span>
+          <br/>
+          <br/>
+          <span><img className="contact-icon" src="/static/message.svg" alt="graphic-innovation-phone-number"></img>info@graphicsinnovation.in</span>
+              
           </ul>
         </div>
         <div className="contact">

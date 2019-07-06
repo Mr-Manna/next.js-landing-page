@@ -30,14 +30,23 @@ var Layout = function Layout(props) {
       lineNumber: 5
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("nav", {
-    className: "navigation display",
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "/",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 6
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    className: "logo",
+    src: "/static/logo.svg",
+    alt: "graphics-innovation",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 6
+    },
+    __self: this
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 7
@@ -49,231 +58,200 @@ var Layout = function Layout(props) {
       lineNumber: 8
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "index",
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "top-email",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 8
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 8
-    },
-    __self: this
-  }, "Home"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+  }, "info@graphicsinnovation.in")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 9
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "/about",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 9
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "./",
+    className: "menu menu-home display",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 9
     },
     __self: this
-  }, "About"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+  }, "HOME"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 10
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "/blog",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 10
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "./contact",
+    className: "menu menu-contact-us",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 10
     },
     __self: this
-  }, "Blogs"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 11
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "/test",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 11
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 11
-    },
-    __self: this
-  }, "Contact"))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: "menu",
+  }, "CONTACT US"))))), props.children, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("footer", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 14
-    },
-    __self: this
-  }, "MENU"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: "close display",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 15
-    },
-    __self: this
-  }, "CLOSE")), props.children, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("footer", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 18
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
     id: "contact",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 19
+      lineNumber: 15
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "row",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20
+      lineNumber: 16
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "contact",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 21
+      lineNumber: 17
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18
+    },
+    __self: this
+  }, "Contacts"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    className: "contact-icon",
+    src: "/static/phone-call.svg",
+    alt: "graphic-innovation-phone-number",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20
+    },
+    __self: this
+  }), "+91 98193 12512"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 22
     },
     __self: this
-  }, "LINKS"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 23
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    className: "contact-icon",
+    src: "/static/message.svg",
+    alt: "graphic-innovation-phone-number",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 24
+      lineNumber: 23
     },
     __self: this
-  }, "Home"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 25
-    },
-    __self: this
-  }, "Photoshop"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 26
-    },
-    __self: this
-  }, "Illustrator"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+  }), "info@graphicsinnovation.in"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "contact",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 27
     },
     __self: this
-  }, "Corel Draw"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 28
     },
     __self: this
-  }, "Indesign"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+  }, "REACH US"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("address", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 29
     },
     __self: this
-  }, "Contact"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "contact",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 32
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 33
-    },
-    __self: this
-  }, "REACH US"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("address", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 34
-    },
-    __self: this
   }, "Graphics Innovation", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 35
+      lineNumber: 30
     },
     __self: this
   }), "Office No. 16, A/343, ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 36
+      lineNumber: 31
     },
     __self: this
   }), "1st Floor Badam Wadi, Kalbadevi Main Road Opp. ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 37
+      lineNumber: 32
     },
     __self: this
   }), "Krishna Murali Hotel, Next to Vivo Showroom, ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 38
+      lineNumber: 33
     },
     __self: this
   }), "Maharashtra 400002")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "contact",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 42
+      lineNumber: 37
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 43
+      lineNumber: 38
     },
     __self: this
   }, "SUBSCRIBE US"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 44
+      lineNumber: 39
     },
     __self: this
   }, "Subscribe us for recieve latest ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 44
+      lineNumber: 39
     },
     __self: this
   }), " Updates News and Offers."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("form", {
@@ -281,7 +259,7 @@ var Layout = function Layout(props) {
     method: "post",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 46
+      lineNumber: 41
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
@@ -289,34 +267,34 @@ var Layout = function Layout(props) {
     placeholder: "Enter Your Email",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 47
+      lineNumber: 42
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
     type: "submit",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 48
+      lineNumber: 43
     },
     __self: this
   }, "subscribe"))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "footer-bottom",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 53
+      lineNumber: 48
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 54
+      lineNumber: 49
     },
     __self: this
   }, "\xA9 ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     href: "http://www.graphicsinnovation.com/",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 54
+      lineNumber: 49
     },
     __self: this
   }, "Graphics Innovation")))));
@@ -9992,12 +9970,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/Layout */ "./components/Layout.js");
-/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./style.css */ "./pages/style.css");
-/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_style_css__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _main_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./main.css */ "./pages/main.css");
-/* harmony import */ var _main_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_main_css__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _normalize_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./normalize.css */ "./pages/normalize.css");
+/* harmony import */ var _normalize_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_normalize_css__WEBPACK_IMPORTED_MODULE_2__);
 var _jsxFileName = "C:\\Users\\Chan's Lap\\Desktop\\rushant\\next\\pages\\index.js";
-
 
 
 
@@ -10006,60 +9981,193 @@ function Index() {
     title: "Home",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 7
+      lineNumber: 6
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
-    id: "hero",
+    className: "navigation display",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 8
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9
+    },
+    __self: this
+  }, "Contact Us"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "close display",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10
+    },
+    __self: this
+  }, "CLOSE"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "row",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "contact-form",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14
+    },
+    __self: this
+  }, "If you have any issues or query,", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14
+    },
+    __self: this
+  }), "please feel free to contact us."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16
+    },
+    __self: this
+  }, "+91 98193 12512"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17
+    },
+    __self: this
+  }, "info@graphicsinnovation.in"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("form", {
+    action: "/",
+    method: "post",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+    type: "text",
+    placeholder: "Enter Your Full Name",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+    type: "email",
+    placeholder: "Enter Your Email",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+    type: "text",
+    placeholder: "Enter Your Number",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+    type: "text",
+    placeholder: "Write Your Message",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+    type: "submit",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23
+    },
+    __self: this
+  }, "Send Message"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "mapouter",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "gmap_canvas",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("iframe", {
+    width: "95%",
+    height: "400",
+    id: "gmap_canvas",
+    src: "https://maps.google.com/maps?q=Office%20No.%2016%2C%20A%2F343%2C%20%201st%20Floor%20Badam%20Wadi%2C%20Kalbadevi%20Main%20Road%2CMaharashtra%20400002&t=&z=13&ie=UTF8&iwloc=&output=embed",
+    frameBorder: "0",
+    scrolling: "no",
+    marginHeight: "0",
+    marginWidth: "0",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 28
+    },
+    __self: this
+  }))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
+    id: "hero",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 33
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "row",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 9
+      lineNumber: 34
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "hero-heading",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 10
+      lineNumber: 35
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 11
+      lineNumber: 36
     },
     __self: this
   }, "Become A Certified Professional Graphic Designer ")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "hero-contact",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13
+      lineNumber: 38
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "hero-contact-form",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 14
+      lineNumber: 39
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 15
+      lineNumber: 40
     },
     __self: this
   }, " Instant Enquire "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 16
+      lineNumber: 41
     },
     __self: this
   }, "+91 98193 12512"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("form", {
@@ -10067,7 +10175,7 @@ function Index() {
     method: "post",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 17
+      lineNumber: 42
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
@@ -10075,7 +10183,7 @@ function Index() {
     placeholder: "Enter Your Name",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 18
+      lineNumber: 43
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
@@ -10083,7 +10191,7 @@ function Index() {
     placeholder: "Enter Your Email",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 19
+      lineNumber: 44
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
@@ -10091,75 +10199,75 @@ function Index() {
     placeholder: "Enter Your Mobile No",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20
+      lineNumber: 45
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
     type: "submit",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 21
+      lineNumber: 46
     },
     __self: this
   }, "Enquire Now!")))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
     id: "overview",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 27
+      lineNumber: 52
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "row",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 28
+      lineNumber: 53
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "overview-left",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 29
+      lineNumber: 54
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 30
+      lineNumber: 55
     },
     __self: this
   }, "Advance Diploma in Graphic Design")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "overview-right",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 32
+      lineNumber: 57
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 33
+      lineNumber: 58
     },
     __self: this
   }, "Graphic Designing is a very important course and in demand. It is practically used for all image editing requirements. It is software\u2019s like Photoshop which combine technology & creativity to create Websites, Brochure Designs, Advertisements, Magazines, Photo-touch ups, Packaging, Hoardings, Project Presentations . . .etc.")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
     id: "softwares",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 41
+      lineNumber: 66
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "row",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 42
+      lineNumber: 67
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "software-left",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 43
+      lineNumber: 68
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
@@ -10167,7 +10275,7 @@ function Index() {
     alt: "photoshop",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 44
+      lineNumber: 69
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
@@ -10175,13 +10283,13 @@ function Index() {
     alt: "photoshop",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 45
+      lineNumber: 70
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 45
+      lineNumber: 70
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
@@ -10189,7 +10297,7 @@ function Index() {
     alt: "photoshop",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 46
+      lineNumber: 71
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
@@ -10197,40 +10305,114 @@ function Index() {
     alt: "photoshop",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 47
+      lineNumber: 72
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "software-right",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 49
+      lineNumber: 74
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 50
+      lineNumber: 75
     },
     __self: this
   }, "Become A Master In Graphic Design ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 51
+      lineNumber: 76
     },
     __self: this
-  }), "With Skills In The Best Tools")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "row",
-    id: "footer-cta",
+  }), "With Skills In The Best Tools")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
+    id: "career",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 57
+      lineNumber: 82
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 58
+      lineNumber: 83
+    },
+    __self: this
+  }, "Career Prospects"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "row",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 84
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 85
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 86
+    },
+    __self: this
+  }, "UI Designer"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 87
+    },
+    __self: this
+  }, "UX Specialist"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 88
+    },
+    __self: this
+  }, "Advertising Art Director"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 89
+    },
+    __self: this
+  }, "Advertising Designer"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 90
+    },
+    __self: this
+  }, "Digital Illustrator"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 91
+    },
+    __self: this
+  }, "Visualizer"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 92
+    },
+    __self: this
+  }, "Multimedia Specialist"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 93
+    },
+    __self: this
+  }, "Layout Artist")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "row",
+    id: "footer-cta",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 97
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 98
     },
     __self: this
   }, " Instant Enquire "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("form", {
@@ -10238,7 +10420,7 @@ function Index() {
     method: "post",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 59
+      lineNumber: 99
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
@@ -10246,7 +10428,7 @@ function Index() {
     placeholder: "Enter Your Name",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 60
+      lineNumber: 100
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
@@ -10254,7 +10436,7 @@ function Index() {
     placeholder: "Enter Your Email",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 61
+      lineNumber: 101
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
@@ -10262,14 +10444,14 @@ function Index() {
     placeholder: "Enter Your Mobile No",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 62
+      lineNumber: 102
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
     type: "submit",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 63
+      lineNumber: 103
     },
     __self: this
   }, "Enquire Now!"))));
@@ -10277,7 +10459,7 @@ function Index() {
 
 /***/ }),
 
-/***/ 0:
+/***/ 1:
 /*!******************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=C%3A%5CUsers%5CChan's%20Lap%5CDesktop%5Crushant%5Cnext%5Cpages%5Cindex.js ***!
   \******************************************************************************************************************************************/
@@ -10300,5 +10482,5 @@ module.exports = dll_6dc2816e14fab51b8269;
 
 /***/ })
 
-},[[0,"static/runtime/webpack.js","styles"]]]);
+},[[1,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=index.js.map
