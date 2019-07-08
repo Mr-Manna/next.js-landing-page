@@ -3,11 +3,11 @@ import Link from 'next/link';
   const Layout = (props) => (
       <main>
       <header>
-        <a href="/"><img className="logo" src="/static/logo.svg" alt="graphics-innovation"></img></a>
+        <Link href="/"><a><img className="logo" src="/static/logo.svg" alt="graphics-innovation"></img></a></Link>
         <ul>
-        <li><span className="top-email">info@graphicsinnovation.in</span></li>
-        <li><Link><a href="./" className="menu menu-home display">HOME</a></Link></li>
-        <li><Link><a href="./contact" className="menu menu-contact-us">CONTACT US</a></Link></li>
+        <li><a className="top-email" href='mailto:info@graphicsinnovation.in'>info@graphicsinnovation.in</a></li>
+        <li><a  href="/" className="menu menu-home display">HOME</a></li>
+        <li><a  href="./contact" className="menu menu-contact-us">CONTACT US</a></li>
         </ul>
       </header>
       {props.children}
@@ -15,7 +15,7 @@ import Link from 'next/link';
       <section id="contact">
       <div className="row">
       <div className="contact">
-          <h4>Contacts</h4>
+          <h4>Contact</h4>
           <ul>
           <span><img className="contact-icon" src="/static/phone-call.svg" alt="graphic-innovation-phone-number"></img>+91 98193 12512</span>
           <br/>
@@ -38,8 +38,8 @@ import Link from 'next/link';
         <h4>SUBSCRIBE US</h4>
         <p>Subscribe us for recieve latest <br/> Updates News and Offers.</p>
 
-          <form action="/" method ="post">
-            <input type="email" placeholder="Enter Your Email"></input>
+          <form action="https://formspree.io/info@graphicsinnovation.in" method ="post">
+            <input type="email" name="email-subscribe" placeholder="Enter Your Email"></input>
             <button type="submit">subscribe</button>
           </form>
         </div>

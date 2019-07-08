@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 0);
+/******/ 	return __webpack_require__(__webpack_require__.s = 1);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -2120,7 +2120,8 @@ function (_Document) {
   Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(MyDocument, [{
     key: "render",
     value: function render(title) {
-      return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("html", {
+      return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(next_document__WEBPACK_IMPORTED_MODULE_6__["Html"], {
+        lang: "en",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 7
@@ -2133,11 +2134,126 @@ function (_Document) {
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("meta", {
-        name: "description",
-        content: "My NEXT App",
+        name: "viewport",
+        content: "initial-scale=1.0, width=device-width",
+        key: "viewport",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 9
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("meta", {
+        name: "viewport",
+        content: "initial-scale=1.2, width=device-width",
+        key: "viewport",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 10
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("meta", {
+        name: "description",
+        content: "My NEXT App>",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 11
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("link", {
+        rel: "apple-touch-icon",
+        href: "icon.png",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 12
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("link", {
+        rel: "apple-touch-startup-image",
+        href: "app.png",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 13
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("link", {
+        href: "/YOUR_PATH/favicon.ico",
+        rel: "icon",
+        type: "image/x-icon",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 15
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("meta", {
+        "http-equiv": "cleartype",
+        content: "on",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 16
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("meta", {
+        name: "format-detection",
+        content: "telephone=no",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 17
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("meta", {
+        name: "viewport",
+        content: "width = device-width, initial-scale=1, user-scalable=yes",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 18
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("meta", {
+        name: "description",
+        content: "This is an example of a meta description. This will often show up in search results.",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 19
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("meta", {
+        name: "google",
+        content: "nositelinkssearchbox",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 20
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("meta", {
+        name: "robots",
+        content: "..., ...",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 21
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("meta", {
+        name: "http-equiv",
+        content: "X-Robots-Tag : noindex, follow",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 22
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("meta", {
+        name: "googlebot",
+        content: "..., ...",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 23
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("meta", {
+        name: "verify",
+        content: "",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 24
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("link", {
@@ -2145,19 +2261,19 @@ function (_Document) {
         href: "/static/main.css",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 10
+          lineNumber: 26
         },
         __self: this
       })), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(next_document__WEBPACK_IMPORTED_MODULE_6__["Main"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 12
+          lineNumber: 29
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(next_document__WEBPACK_IMPORTED_MODULE_6__["NextScript"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 13
+          lineNumber: 30
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("script", {
@@ -2165,7 +2281,7 @@ function (_Document) {
         src: "/static/main.js",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 14
+          lineNumber: 31
         },
         __self: this
       }));
@@ -2179,7 +2295,7 @@ function (_Document) {
 
 /***/ }),
 
-/***/ 0:
+/***/ 1:
 /*!*********************************************!*\
   !*** multi private-next-pages/_document.js ***!
   \*********************************************/

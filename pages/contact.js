@@ -1,9 +1,13 @@
 import Layout from '../components/Layout';
-
+import './normalize.css';
+import Head from 'next/head';
 
 export default function Index(){
     return(
-        <Layout title="Home">
+        <Layout>
+            <Head>
+            <title>Graphics Innovation | Contact Us</title>
+            </Head>
         <section id="contact-page">
         
         <div className="row">
@@ -16,11 +20,11 @@ export default function Index(){
                     please feel free to contact us.</h4>
                     <span><img className="contact-icon" src="/static/phone-call.svg" alt="graphic-innovation-phone-number"></img>+91 98193 12512</span>
                     <span><img className="contact-icon" src="/static/message.svg" alt="graphic-innovation-phone-number"></img>info@graphicsinnovation.in</span>
-                <form action="/" method="post">
-                    <input type="text" placeholder="Enter Your Full Name"></input>
-                    <input type="email" placeholder="Enter Your Email"></input>
-                    <input type="text" placeholder="Enter Your Number"></input>
-                    <input type="text" placeholder="Write Your Message"></input>
+                <form action="https://formspree.io/info@graphicsinnovation.in" method="post">
+                    <input name="name" type="text" placeholder="Enter Your Full Name"></input>
+                    <input name="email" type="email" placeholder="Enter Your Email"></input>
+                    <input name="number"  type="number" min="10" max="10" placeholder="Enter Your Number"></input>
+                    <input name="message" type="text" placeholder="Write Your Message"></input>
                     <button type="submit">Send Message</button>
                 </form>
             </div>

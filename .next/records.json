@@ -1,0 +1,28 @@
+{
+  "mini-css-extract-plugin ../../../../Chan's Lap\\Desktop\\rushant\\next\\node_modules\\css-loader\\index.js??ref--5-1!../../../../Chan's Lap\\Desktop\\rushant\\next\\pages\\normalize.css": [
+    {
+      "modules": {
+        "byIdentifier": {},
+        "usedIds": {}
+      },
+      "chunks": {
+        "byName": {},
+        "bySource": {},
+        "usedIds": []
+      }
+    }
+  ],
+  "modules": {
+    "byIdentifier": {
+      "css ../../../../Chan's Lap\\Desktop\\rushant\\next\\node_modules\\css-loader\\index.js??ref--5-1!../../../../Chan's Lap\\Desktop\\rushant\\next\\pages\\normalize.css 0": 0
+    },
+    "usedIds": {
+      "0": 0
+    }
+  },
+  "chunks": {
+    "byName": {},
+    "bySource": {},
+    "usedIds": []
+  }
+}

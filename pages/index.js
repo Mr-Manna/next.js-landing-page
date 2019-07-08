@@ -1,35 +1,14 @@
 import Layout from '../components/Layout';
 import './normalize.css';
+import Head from 'next/head';
+
 
 export default function Index(){
     return(     
-    <Layout title="Home">
-    
-        <section className="navigation display">
-            <h3>Contact Us</h3>
-            <span className="close display">CLOSE</span>
-
-        <div className="row">
-            <div className="contact-form">
-                <h4>If you have any issues or query,<br/>
-                    please feel free to contact us.</h4>
-                    <span>+91 98193 12512</span>
-                    <span>info@graphicsinnovation.in</span>
-                <form action="/" method="post">
-                    <input type="text" placeholder="Enter Your Full Name"></input>
-                    <input type="email" placeholder="Enter Your Email"></input>
-                    <input type="text" placeholder="Enter Your Number"></input>
-                    <input type="text" placeholder="Write Your Message"></input>
-                    <button type="submit">Send Message</button>
-                </form>
-            </div>
-            <div className="mapouter">
-                <div className="gmap_canvas">
-                    <iframe width="95%" height="400" id="gmap_canvas" src="https://maps.google.com/maps?q=Office%20No.%2016%2C%20A%2F343%2C%20%201st%20Floor%20Badam%20Wadi%2C%20Kalbadevi%20Main%20Road%2CMaharashtra%20400002&t=&z=13&ie=UTF8&iwloc=&output=embed" frameBorder="0" scrolling="no" marginHeight="0" marginWidth="0"></iframe>
-                </div>
-            </div>
-        </div>
-        </section>
+    <Layout>
+        <Head>
+            <title>Graphics Innovation </title>
+            </Head>
     <section id='hero'>
       <div className="row">
       <div className="hero-heading">
@@ -38,11 +17,12 @@ export default function Index(){
       <div className="hero-contact">
         <div className="hero-contact-form">
           <h4> Instant Enquire </h4>
-          <span>+91 98193 12512</span>
-          <form action="/" method="post">
-              <input type="text" placeholder="Enter Your Name"></input>
-              <input type="email" placeholder="Enter Your Email"></input>
-              <input type="mobile" placeholder="Enter Your Mobile No"></input>
+          <span><p> Call Now : +91 98193 12512 <br/><br/>Or</p></span>
+          
+          <form action="https://formspree.io/info@graphicsinnovation.in" method="post">
+              <input name="name" type="email" placeholder="Enter Your Name"></input>
+              <input name="email" type="text" placeholder="Enter Your Email"></input>
+              <input name="number" type="number" min="10" max="10" placeholder="Enter Your Mobile No"></input>
               <button type="submit">Enquire Now!</button>
           </form>
         </div>
@@ -66,19 +46,34 @@ export default function Index(){
     <section id="softwares">
       <div className="row">
       <div className="software-left">
-     <img src="/static/photoshop.svg" alt="photoshop"></img>
-    <img src="/static/illustrator.svg" alt="photoshop"></img><br/>
-    <img src="/static/indesign.svg" alt="photoshop"></img>
-    <img src="/static/coreldraw.jpg" alt="photoshop"></img>
-     </div>
+      <ul>
+        <img src="/static/adobe-photoshop.svg" alt="photoshop"></img>
+        <img src="/static/adobe-illustrator.svg" alt="photoshop"></img>
+        <img src="/static/adobe-indesign.svg" alt="photoshop"></img>
+        <img src="/static/coreldraw.svg" alt="photoshop"></img>
+      </ul>
+      </div>
         <div className="software-right">
         <h2>
-      Become A Master In Graphic Design <br/>
-      With Skills In The Best Tools
-    </h2>
+          Become A Master In Graphic Design <br/>
+          With Skills In The Best Tools
+        </h2>
+        <h4>Build skills in the world of graphics & visual design.</h4>
+        <ul>
+          <li>UI Design</li>
+          <li>Photo Editing</li>
+          <li> Infographics</li>
+          <li>Digital Painting</li>
+          <li>Wireframe</li>
+          <li>Web Graphics</li>
+        </ul>
         </div>
       </div>
     </section>
+    <div className="row" id="download">
+      <h4> See Our Complete Curriculum. Download The Course Book. </h4>          
+      <button>Download Now!</button>
+    </div>
     <section id="career">
     <h4>Career Prospects</h4>
       <div className="row">
@@ -97,9 +92,9 @@ export default function Index(){
     <div className="row" id="footer-cta">
       <h4> Instant Enquire </h4>
       <form action="/" method="post">
-          <input type="text" placeholder="Enter Your Name"></input>
-          <input type="email" placeholder="Enter Your Email"></input>
-          <input type="mobile" placeholder="Enter Your Mobile No"></input>
+          <input name="name" type="text" placeholder="Enter Your Name"></input>
+          <input name="email" type="email" placeholder="Enter Your Email"></input>
+          <input name="number" type="number" min="10" max="10" placeholder="Enter Your Mobile No"></input>
           <button type="submit">Enquire Now!</button>
       </form>
     </div>
