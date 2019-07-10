@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 4);
+/******/ 	return __webpack_require__(__webpack_require__.s = 3);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -194,6 +194,7 @@ var Layout = function Layout(props) {
     },
     __self: this
   }, "CONTACT US")))), props.children, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("footer", {
+    role: "contentinfo",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 14
@@ -989,6 +990,7 @@ function Index() {
     __self: this
   }, "Graphics Innovation ")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
     id: "hero",
+    role: "banner",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 12
@@ -1436,7 +1438,7 @@ function Index() {
 
 /***/ }),
 
-/***/ 4:
+/***/ 3:
 /*!******************************!*\
   !*** multi ./pages/index.js ***!
   \******************************/

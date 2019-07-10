@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 3);
+/******/ 	return __webpack_require__(__webpack_require__.s = 4);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -194,6 +194,7 @@ var Layout = function Layout(props) {
     },
     __self: this
   }, "CONTACT US")))), props.children, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("footer", {
+    role: "contentinfo",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 14
@@ -980,7 +981,7 @@ var _jsxFileName = "C:\\Users\\Chan's Lap\\Desktop\\rushant\\next\\pages\\_error
 
 /***/ }),
 
-/***/ 3:
+/***/ 4:
 /*!*******************************!*\
   !*** multi ./pages/_error.js ***!
   \*******************************/

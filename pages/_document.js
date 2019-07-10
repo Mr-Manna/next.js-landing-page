@@ -26,7 +26,7 @@ class MyDocument extends Document{
                     <link rel="stylesheet" href="/static/main.css"></link>
 
                 </Head>
-                <Main/>
+                <Main role="main"/>
                 <NextScript/>
                 <script type="text/javascript" src="/static/main.js"></script>
             </Html>

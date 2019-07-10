@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 1);
+/******/ 	return __webpack_require__(__webpack_require__.s = 0);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -2265,6 +2265,7 @@ function (_Document) {
         },
         __self: this
       })), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(next_document__WEBPACK_IMPORTED_MODULE_6__["Main"], {
+        role: "main",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 29
@@ -2295,7 +2296,7 @@ function (_Document) {
 
 /***/ }),
 
-/***/ 1:
+/***/ 0:
 /*!*********************************************!*\
   !*** multi private-next-pages/_document.js ***!
   \*********************************************/

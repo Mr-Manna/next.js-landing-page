@@ -194,6 +194,7 @@ var Layout = function Layout(props) {
     },
     __self: this
   }, "CONTACT US")))), props.children, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("footer", {
+    role: "contentinfo",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 14

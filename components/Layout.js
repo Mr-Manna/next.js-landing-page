@@ -11,7 +11,7 @@ import Link from 'next/link';
         </ul>
       </header>
       {props.children}
-      <footer>
+      <footer role="contentinfo">
       <section id="contact">
       <div className="row">
       <div className="contact">

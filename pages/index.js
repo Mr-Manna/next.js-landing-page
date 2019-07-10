@@ -9,7 +9,7 @@ export default function Index(){
         <Head>
             <title>Graphics Innovation </title>
             </Head>
-    <section id='hero'>
+    <section id='hero' role="banner">
       <div className="row">
       <div className="hero-heading">
       <h1>Become A Certified Professional Graphic Designer </h1>
